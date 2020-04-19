@@ -159,7 +159,6 @@ void redis::dump(){
 	for(auto &key_pair: hashTable){
 		seralisedData = key_pair.second->serialise();
 		dbFile << key_pair.first <<" "<< seralisedData<<"\n";
-		cout << key_pair.first <<" "<< seralisedData<<"\n";
 	}
 	dbFile.close();
 	cout<<"Completed\n";
