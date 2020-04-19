@@ -26,6 +26,7 @@ EXPIRE <key> <time-in-sec>
 ZADD <key> <score1(float)> <element1(string)> <score2> <element2> ...
 ZRANK <key> <element(string)>
 ZRANGE <key> <start(int)> <end(int)>
+SAVE 
 ```
 ### Example Commands
 ```
